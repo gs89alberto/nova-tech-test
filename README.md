@@ -15,7 +15,17 @@ Implement and provide the solution of a simple API to support the following hypo
 ```bash
 $ npm install
 ```
+## .env configuration
 
+```bash
+#.env must have the following environment variables
+HOST
+PORT
+MONGO_DB_URL_DEVELOPMENT
+MONGO_DB_URL_TESTING
+MAIL_USER
+MAIL_PASS
+```
 
 ## Running the app
 
